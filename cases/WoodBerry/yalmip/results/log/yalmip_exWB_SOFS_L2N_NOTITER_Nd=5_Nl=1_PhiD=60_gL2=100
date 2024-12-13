@@ -1,0 +1,46 @@
+----- start of PI calculation ---------------------------------------
+Selected solver: sdpt3
+Generating initial bound: 0 (ok), -1 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -1.00000E+00   -5.00000E-01   -0.00000E+00    1.00000E+00  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.00000E-01   -2.50000E-01   -0.00000E+00    5.00000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -2.50000E-01   -1.25000E-01   -0.00000E+00    2.50000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -1.25000E-01   -6.25000E-02   -0.00000E+00    1.25000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -6.25000E-02   -3.12500E-02   -0.00000E+00    6.25000E-02  Successfully solved 
+    6 :   -6.25000E-02   -4.68750E-02   -3.12500E-02    3.12500E-02  Successfully solved 
+    7 :   -6.25000E-02   -5.46875E-02   -4.68750E-02    1.56250E-02  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -5.46875E-02   -5.07812E-02   -4.68750E-02    7.81250E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -5.07812E-02   -4.88281E-02   -4.68750E-02    3.90625E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -4.88281E-02   -4.78516E-02   -4.68750E-02    1.95312E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   11 :   -4.78516E-02   -4.73633E-02   -4.68750E-02    9.76562E-04  Successfully solved 
+   12 :   -4.78516E-02   -4.76074E-02   -4.73633E-02    4.88281E-04  Successfully solved 
+   13 :   -4.78516E-02   -4.77295E-02   -4.76074E-02    2.44141E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   14 :   -4.77295E-02   -4.76685E-02   -4.76074E-02    1.22070E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   15 :   -4.76685E-02   -4.76379E-02   -4.76074E-02    6.10352E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   16 :   -4.76379E-02   -4.76227E-02   -4.76074E-02    3.05176E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   17 :   -4.76227E-02   -4.76151E-02   -4.76074E-02    1.52588E-05  Successfully solved 
+Bisection terminated successfully with objective -0.047615
+----- end of PI calculation -----------------------------------------
+----- start of PID calculation --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: 0 (ok), -1 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -1.00000E+00   -5.00000E-01   -0.00000E+00    1.00000E+00  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.00000E-01   -2.50000E-01   -0.00000E+00    5.00000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -2.50000E-01   -1.25000E-01   -0.00000E+00    2.50000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -1.25000E-01   -6.25000E-02   -0.00000E+00    1.25000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -6.25000E-02   -3.12500E-02   -0.00000E+00    6.25000E-02  Successfully solved 
+    6 :   -6.25000E-02   -4.68750E-02   -3.12500E-02    3.12500E-02  Successfully solved 
+    7 :   -6.25000E-02   -5.46875E-02   -4.68750E-02    1.56250E-02  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -5.46875E-02   -5.07812E-02   -4.68750E-02    7.81250E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -5.07812E-02   -4.88281E-02   -4.68750E-02    3.90625E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -4.88281E-02   -4.78516E-02   -4.68750E-02    1.95312E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   11 :   -4.78516E-02   -4.73633E-02   -4.68750E-02    9.76562E-04  Successfully solved 
+   12 :   -4.78516E-02   -4.76074E-02   -4.73633E-02    4.88281E-04  Successfully solved 
+   13 :   -4.78516E-02   -4.77295E-02   -4.76074E-02    2.44141E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   14 :   -4.77295E-02   -4.76685E-02   -4.76074E-02    1.22070E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   15 :   -4.76685E-02   -4.76379E-02   -4.76074E-02    6.10352E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   16 :   -4.76379E-02   -4.76227E-02   -4.76074E-02    3.05176E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   17 :   -4.76227E-02   -4.76151E-02   -4.76074E-02    1.52588E-05  Successfully solved 
+Bisection terminated successfully with objective -0.047615
+----- end of PID calculation ----------------------------------------
