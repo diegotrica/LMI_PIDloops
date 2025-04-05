@@ -1,0 +1,225 @@
+----- Upper bound on L2 norm = 100
+----- start of PI calculation ---------------------------------------
+----- Iteration #1 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: 0 (ok), -0.1 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -1.00000E-01   -5.00000E-02   -0.00000E+00    1.00000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.00000E-02   -2.50000E-02   -0.00000E+00    5.00000E-02  Successfully solved 
+    3 :   -5.00000E-02   -3.75000E-02   -2.50000E-02    2.50000E-02  Successfully solved 
+    4 :   -5.00000E-02   -4.37500E-02   -3.75000E-02    1.25000E-02  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.37500E-02   -4.06250E-02   -3.75000E-02    6.25000E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.06250E-02   -3.90625E-02   -3.75000E-02    3.12500E-03  Successfully solved 
+    7 :   -4.06250E-02   -3.98438E-02   -3.90625E-02    1.56250E-03  Successfully solved 
+    8 :   -4.06250E-02   -4.02344E-02   -3.98438E-02    7.81250E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -4.02344E-02   -4.00391E-02   -3.98438E-02    3.90625E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -4.00391E-02   -3.99414E-02   -3.98438E-02    1.95313E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   11 :   -3.99414E-02   -3.98926E-02   -3.98438E-02    9.76563E-05  Successfully solved 
+   12 :   -3.99414E-02   -3.99170E-02   -3.98926E-02    4.88281E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   13 :   -3.99170E-02   -3.99048E-02   -3.98926E-02    2.44141E-05  Successfully solved 
+   14 :   -3.99170E-02   -3.99109E-02   -3.99048E-02    1.22070E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.039905
+----- alp* = -0.039905 alp0* =  res = 
+----- Iteration #2 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.039905 (ok), -0.043895 (ok), -0.048285 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -4.82848E-02   -4.60900E-02   -4.38953E-02    4.38953E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -4.60900E-02   -4.49926E-02   -4.38953E-02    2.19476E-03  Successfully solved 
+    3 :   -4.60900E-02   -4.55413E-02   -4.49926E-02    1.09738E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -4.55413E-02   -4.52670E-02   -4.49926E-02    5.48691E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.52670E-02   -4.51298E-02   -4.49926E-02    2.74345E-04  Successfully solved 
+    6 :   -4.52670E-02   -4.51984E-02   -4.51298E-02    1.37173E-04  Successfully solved 
+    7 :   -4.52670E-02   -4.52327E-02   -4.51984E-02    6.85863E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -4.52327E-02   -4.52156E-02   -4.51984E-02    3.42932E-05  Successfully solved 
+    9 :   -4.52327E-02   -4.52241E-02   -4.52156E-02    1.71466E-05  Successfully solved 
+Bisection terminated successfully with objective -0.045224
+----- alp* = -0.045224 alp0* = -0.039905 res = 0.11762
+----- Iteration #3 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.045224 (ok), -0.049747 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -4.97465E-02   -4.74853E-02   -4.52241E-02    4.52241E-03  Successfully solved 
+    2 :   -4.97465E-02   -4.86159E-02   -4.74853E-02    2.26121E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -4.86159E-02   -4.80506E-02   -4.74853E-02    1.13060E-03  Successfully solved 
+    4 :   -4.86159E-02   -4.83333E-02   -4.80506E-02    5.65302E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.83333E-02   -4.81920E-02   -4.80506E-02    2.82651E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.81920E-02   -4.81213E-02   -4.80506E-02    1.41325E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -4.81213E-02   -4.80860E-02   -4.80506E-02    7.06627E-05  Successfully solved 
+    8 :   -4.81213E-02   -4.81036E-02   -4.80860E-02    3.53313E-05  Successfully solved 
+    9 :   -4.81213E-02   -4.81125E-02   -4.81036E-02    1.76657E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.048104
+----- alp* = -0.048104 alp0* = -0.045224 res = 0.05986
+----- Iteration #4 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.048104 (ok), -0.052914 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.29140E-02   -5.05088E-02   -4.81036E-02    4.81036E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.05088E-02   -4.93062E-02   -4.81036E-02    2.40518E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -4.93062E-02   -4.87049E-02   -4.81036E-02    1.20259E-03  Successfully solved 
+    4 :   -4.93062E-02   -4.90056E-02   -4.87049E-02    6.01295E-04  Successfully solved 
+    5 :   -4.93062E-02   -4.91559E-02   -4.90056E-02    3.00648E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.91559E-02   -4.90807E-02   -4.90056E-02    1.50324E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -4.90807E-02   -4.90432E-02   -4.90056E-02    7.51619E-05  Successfully solved 
+    8 :   -4.90807E-02   -4.90619E-02   -4.90432E-02    3.75810E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -4.90619E-02   -4.90525E-02   -4.90432E-02    1.87905E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.049043
+----- alp* = -0.049043 alp0* = -0.048104 res = 0.019157
+----- Iteration #5 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.049043 (ok), -0.053947 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.39475E-02   -5.14953E-02   -4.90432E-02    4.90432E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.14953E-02   -5.02692E-02   -4.90432E-02    2.45216E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.02692E-02   -4.96562E-02   -4.90432E-02    1.22608E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -4.96562E-02   -4.93497E-02   -4.90432E-02    6.13039E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.93497E-02   -4.91964E-02   -4.90432E-02    3.06520E-04  Successfully solved 
+    6 :   -4.93497E-02   -4.92730E-02   -4.91964E-02    1.53260E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -4.92730E-02   -4.92347E-02   -4.91964E-02    7.66299E-05  Successfully solved 
+    8 :   -4.92730E-02   -4.92539E-02   -4.92347E-02    3.83150E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -4.92539E-02   -4.92443E-02   -4.92347E-02    1.91575E-05  Successfully solved 
+Bisection terminated successfully with objective -0.049244
+----- alp* = -0.049244 alp0* = -0.049043 res = 0.0040848
+----- Iteration #6 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.049244 (ok), -0.054169 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.41687E-02   -5.17065E-02   -4.92443E-02    4.92443E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.17065E-02   -5.04754E-02   -4.92443E-02    2.46222E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.04754E-02   -4.98599E-02   -4.92443E-02    1.23111E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -4.98599E-02   -4.95521E-02   -4.92443E-02    6.15554E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.95521E-02   -4.93982E-02   -4.92443E-02    3.07777E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.93982E-02   -4.93213E-02   -4.92443E-02    1.53888E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -4.93213E-02   -4.92828E-02   -4.92443E-02    7.69442E-05  Successfully solved 
+    8 :   -4.93213E-02   -4.93020E-02   -4.92828E-02    3.84721E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -4.93020E-02   -4.92924E-02   -4.92828E-02    1.92361E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.049283
+----- alp* = -0.049283 alp0* = -0.049244 res = 0.00078064
+----- end of PI calculation -----------------------------------------
+----- start of PID calculation --------------------------------------
+----- Iteration #1 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: 0 (ok), -0.1 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -1.00000E-01   -5.00000E-02   -0.00000E+00    1.00000E-01  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.00000E-02   -2.50000E-02   -0.00000E+00    5.00000E-02  Successfully solved 
+    3 :   -5.00000E-02   -3.75000E-02   -2.50000E-02    2.50000E-02  Successfully solved 
+    4 :   -5.00000E-02   -4.37500E-02   -3.75000E-02    1.25000E-02  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.37500E-02   -4.06250E-02   -3.75000E-02    6.25000E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.06250E-02   -3.90625E-02   -3.75000E-02    3.12500E-03  Successfully solved 
+    7 :   -4.06250E-02   -3.98438E-02   -3.90625E-02    1.56250E-03  Successfully solved 
+    8 :   -4.06250E-02   -4.02344E-02   -3.98438E-02    7.81250E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    9 :   -4.02344E-02   -4.00391E-02   -3.98438E-02    3.90625E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -4.00391E-02   -3.99414E-02   -3.98438E-02    1.95313E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   11 :   -3.99414E-02   -3.98926E-02   -3.98438E-02    9.76563E-05  Successfully solved 
+   12 :   -3.99414E-02   -3.99170E-02   -3.98926E-02    4.88281E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   13 :   -3.99170E-02   -3.99048E-02   -3.98926E-02    2.44141E-05  Successfully solved 
+   14 :   -3.99170E-02   -3.99109E-02   -3.99048E-02    1.22070E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.039905
+----- alp* = -0.039905 alp0* =  res = 
+----- Iteration #2 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.039905 (ok), -0.043895 (ok), -0.048285 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -4.82848E-02   -4.60900E-02   -4.38953E-02    4.38953E-03  Successfully solved 
+    2 :   -4.82848E-02   -4.71874E-02   -4.60900E-02    2.19476E-03  Successfully solved 
+    3 :   -4.82848E-02   -4.77361E-02   -4.71874E-02    1.09738E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -4.77361E-02   -4.74618E-02   -4.71874E-02    5.48691E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -4.74618E-02   -4.73246E-02   -4.71874E-02    2.74345E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -4.73246E-02   -4.72560E-02   -4.71874E-02    1.37173E-04  Maximum iterations or time limit exceeded (assumed infeasible)
+    7 :   -4.72560E-02   -4.72217E-02   -4.71874E-02    6.85863E-05  Successfully solved 
+    8 :   -4.72560E-02   -4.72388E-02   -4.72217E-02    3.42932E-05  Successfully solved 
+    9 :   -4.72560E-02   -4.72474E-02   -4.72388E-02    1.71466E-05  Successfully solved 
+Bisection terminated successfully with objective -0.047247
+----- alp* = -0.047247 alp0* = -0.039905 res = 0.15541
+----- Iteration #3 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.047247 (ok), -0.051972 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.19722E-02   -4.96098E-02   -4.72474E-02    4.72474E-03  Successfully solved 
+    2 :   -5.19722E-02   -5.07910E-02   -4.96098E-02    2.36237E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.07910E-02   -5.02004E-02   -4.96098E-02    1.18119E-03  Successfully solved 
+    4 :   -5.07910E-02   -5.04957E-02   -5.02004E-02    5.90593E-04  Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (assumed infeasible)
+    5 :   -5.04957E-02   -5.03480E-02   -5.02004E-02    2.95296E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -5.03480E-02   -5.02742E-02   -5.02004E-02    1.47648E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -5.02742E-02   -5.02373E-02   -5.02004E-02    7.38241E-05  Successfully solved 
+    8 :   -5.02742E-02   -5.02558E-02   -5.02373E-02    3.69120E-05  Successfully solved 
+    9 :   -5.02742E-02   -5.02650E-02   -5.02558E-02    1.84560E-05  Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (assumed infeasible)
+Bisection terminated successfully with objective -0.050256
+----- alp* = -0.050256 alp0* = -0.047247 res = 0.05986
+----- Iteration #4 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.050256 (ok), -0.055281 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.52813E-02   -5.27685E-02   -5.02558E-02    5.02558E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.27685E-02   -5.15121E-02   -5.02558E-02    2.51279E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.15121E-02   -5.08840E-02   -5.02558E-02    1.25639E-03  Successfully solved 
+    4 :   -5.15121E-02   -5.11980E-02   -5.08840E-02    6.28197E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -5.11980E-02   -5.10410E-02   -5.08840E-02    3.14098E-04  Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (looks ok)
+    6 :   -5.11980E-02   -5.11195E-02   -5.10410E-02    1.57049E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -5.11195E-02   -5.10803E-02   -5.10410E-02    7.85246E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -5.10803E-02   -5.10606E-02   -5.10410E-02    3.92623E-05  Successfully solved 
+    9 :   -5.10803E-02   -5.10704E-02   -5.10606E-02    1.96312E-05  Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (assumed infeasible)
+Bisection terminated successfully with objective -0.051061
+----- alp* = -0.051061 alp0* = -0.050256 res = 0.015763
+----- Iteration #5 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.051061 (ok), -0.056167 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.61667E-02   -5.36137E-02   -5.10606E-02    5.10606E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.36137E-02   -5.23371E-02   -5.10606E-02    2.55303E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.23371E-02   -5.16989E-02   -5.10606E-02    1.27652E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -5.16989E-02   -5.13798E-02   -5.10606E-02    6.38258E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -5.13798E-02   -5.12202E-02   -5.10606E-02    3.19129E-04  Successfully solved 
+    6 :   -5.13798E-02   -5.13000E-02   -5.12202E-02    1.59564E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -5.13000E-02   -5.12601E-02   -5.12202E-02    7.97822E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -5.12601E-02   -5.12401E-02   -5.12202E-02    3.98911E-05  Lack of progress (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>)(looks ok)
+    9 :   -5.12601E-02   -5.12501E-02   -5.12401E-02    1.99456E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.05124
+----- alp* = -0.05124 alp0* = -0.051061 res = 0.0035033
+----- Iteration #6 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.05124 (ok), -0.056364 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.63642E-02   -5.38021E-02   -5.12401E-02    5.12401E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.38021E-02   -5.25211E-02   -5.12401E-02    2.56201E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.25211E-02   -5.18806E-02   -5.12401E-02    1.28100E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -5.18806E-02   -5.15604E-02   -5.12401E-02    6.40502E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -5.15604E-02   -5.14003E-02   -5.12401E-02    3.20251E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -5.14003E-02   -5.13202E-02   -5.12401E-02    1.60125E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -5.13202E-02   -5.12802E-02   -5.12401E-02    8.00627E-05  Successfully solved 
+    8 :   -5.13202E-02   -5.13002E-02   -5.12802E-02    4.00314E-05  Maximum iterations or time limit exceeded (looks ok)
+    9 :   -5.13202E-02   -5.13102E-02   -5.13002E-02    2.00157E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -5.13102E-02   -5.13052E-02   -5.13002E-02    1.00078E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+Bisection terminated successfully with objective -0.0513
+----- alp* = -0.0513 alp0* = -0.05124 res = 0.0011705
+----- Iteration #7 --------------------------------------------------
+----- solving gevp for SOFHinf --------------------------------------
+Selected solver: sdpt3
+Generating initial bound: -0.0513 (ok), -0.05643 (fail).
+Iteration  Lower bound    Test           Upper bound    Gap          Solver status at test
+    1 :   -5.64302E-02   -5.38652E-02   -5.13002E-02    5.13002E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    2 :   -5.38652E-02   -5.25827E-02   -5.13002E-02    2.56501E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    3 :   -5.25827E-02   -5.19414E-02   -5.13002E-02    1.28250E-03  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    4 :   -5.19414E-02   -5.16208E-02   -5.13002E-02    6.41252E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    5 :   -5.16208E-02   -5.14605E-02   -5.13002E-02    3.20626E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    6 :   -5.14605E-02   -5.13803E-02   -5.13002E-02    1.60313E-04  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    7 :   -5.13803E-02   -5.13403E-02   -5.13002E-02    8.01565E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+    8 :   -5.13403E-02   -5.13202E-02   -5.13002E-02    4.00783E-05  Maximum iterations or time limit exceeded (looks ok)
+    9 :   -5.13403E-02   -5.13302E-02   -5.13202E-02    2.00391E-05  Infeasible problem (<a href="yalmip.github.io/debugginginfeasible">learn to debug</a>) 
+   10 :   -5.13302E-02   -5.13252E-02   -5.13202E-02    1.00196E-05  Maximum iterations or time limit exceeded (assumed infeasible)
+Bisection terminated successfully with objective -0.05132
+----- alp* = -0.05132 alp0* = -0.0513 res = 0.00039047
+----- end of PID calculation ----------------------------------------
